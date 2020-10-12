@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using WebShop.Domain;
 
-namespace WebShop.Data
+namespace WebShop.Database
 {
     public class ApplicationDbContext : IdentityDbContext
     {
