@@ -10,5 +10,6 @@ namespace WebShop.Database
             : base(options) { }
 
         public DbSet<Article> Articles { get; set; }
+        public DbSet<Customer> Users { get; set; }
     }
 }

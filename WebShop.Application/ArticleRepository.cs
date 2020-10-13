@@ -21,7 +21,7 @@ namespace WebShop.Application
 
         public Article GetById(int id)
         {
-            return _context.Articles.Where(x => x.Id == id).FirstOrDefault();
+            return _context.Articles.FirstOrDefault(x => x.Id == id);
         }
     }
 }
